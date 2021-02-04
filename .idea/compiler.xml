@@ -8,8 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-eureka-server7001" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloud-config-client-3355" />
         <module name="cloud-config-client-3366" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +20,9 @@
       <module name="cloud-config-client-3355" target="1.8" />
       <module name="cloud-config-client-3366" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provider8801" target="1.8" />
       <module name="springcloud-config" target="1.8" />
     </bytecodeTargetLevel>
   </component>
